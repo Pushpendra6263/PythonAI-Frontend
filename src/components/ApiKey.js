@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 export default function ApiKeyModal({ onSave, onClose }) {
-    const [apiKey, setApiKey] = useState('');
+    const [apiKey, setApiKey] = useState('AIzaSyBHi6I1cv_NadvYGm2gytz7-iXAZC6JsSo');
 
     const handleSave = () => {
         if (apiKey) {
