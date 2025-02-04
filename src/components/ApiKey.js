@@ -13,7 +13,7 @@ export default function ApiKeyModal({ onSave, onClose }) {
      
         <div className="py-3 w-full sm:w-2/3 flex flex-col items-center justify-center bg-white">
             <div className="w-full flex flex-col items-center gap-4 text-center">
-                <h2 className='text-base'>Enter Your OpenAI API Key</h2>
+                <h2 className='text-base'>Enter Your Gemini API Key</h2>
                 <input
                     className='w-full sm:w-2/3 px-4 py-2 bg-gray-100 outline-none'
                     type="text"
