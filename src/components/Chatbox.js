@@ -20,7 +20,7 @@ export default function ChatBox({ apiKey }) {
 
     return (
         <div className="relative bg-white w-full h-full rounded-lg overflow-hidden">
-            <div className="h-auto max-h-[90%]  py-4 px-6 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200">
+            <div className="h-auto max-h-[90%]  py-2 sm:py-4 px-6 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-400 scrollbar-track-gray-200 ">
                 {messages.map((msg, index) => (
                     <div key={index} className={`w-full sm:w-[80%] ${msg.role === 'user' ? 'text-[#333] mt-5' : 'md:ml-4 mt-5 text-[#222222]'}`}>
                         <strong>{msg.role === 'user' ? 'You: ' : 'Python-AI: '}</strong>

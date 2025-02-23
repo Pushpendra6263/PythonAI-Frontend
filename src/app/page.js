@@ -17,12 +17,12 @@ export default function Home() {
 
     <div className="h-screen w-screen bg-blue-50 py-5 px-4 sm:px-5 md:px-10 flex flex-col md:flex-row items-center justify-center">
 
-      <div className="h-full w-full md:w-1/2 text-center flex flex-col items-center justify-center gap-4">
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3">Welcome to PythonAI! 🐍</h1>
-        <p className="text-lg text-gray-700 w-full sm:w-2/3">
+      <div className="h-50 w-full md:w-1/2 text-center flex flex-col items-center justify-center gap-4">
+        <h1 className="text-xl sm:text-3xl font-bold text-gray-800 mb-3">Welcome to PythonAI! 🐍</h1>
+        <p className="text-base sm:text-lg text-gray-700 w-full sm:w-2/3">
           Learn Python with your very own AI tutor. Start your coding journey today!
         </p>
-        <button className="w-fit bg-[royalblue] text-white py-2 px-6 rounded-md font-medium hover:bg-blue-600 transition duration-300"
+        <button className="w-fit text-sm sm:text-base bg-[royalblue] text-white py-2 px-6 rounded-md font-medium hover:bg-blue-600 transition duration-300"
           onClick={() => setShowApiKeyModal(true)}>
           Configure API Key
         </button>
