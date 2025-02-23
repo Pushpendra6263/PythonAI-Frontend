@@ -14,11 +14,11 @@ export default function Home() {
   };
 
   return (
-  
+
     <div className="h-screen w-screen bg-blue-50 py-5 px-4 sm:px-5 md:px-10 flex flex-col md:flex-row items-center justify-center">
-      <div className="h-full w-full md:w-1/2 text-center flex flex-col items-center justify-center gap-4">
-        <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-3">Welcome to PythonPal! 🐍</h1>
-        <p className="text-lg text-gray-700 w-full sm:w-2/3">
+      <div className="xl:h-full lg:h-full w-full md:w-1/2 sm:h-2/3  text-center flex flex-col items-center justify-center gap-4">
+        <h1 className="text-xl sm:text-3xl font-bold text-gray-800 mb-3">Welcome to Python-AI! 🐍</h1>
+        <p className="sm:text-sm md:text-xl lg:text-xl xl:text-xl text-sm text-gray-700 w-full sm:w-2/3 ">
           Learn Python with your very own AI tutor. Start your coding journey today!
         </p>
         <button className="w-fit bg-[royalblue] text-white py-2 px-6 rounded-md font-medium hover:bg-blue-600 transition duration-300"
